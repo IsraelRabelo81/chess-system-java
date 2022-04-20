@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Application;
+package application;
+
+import boardgame.Position;
 
 /**
  *
@@ -11,7 +13,8 @@ package Application;
  */
 public class Program {
     public static void main(String[] args) {
-        System.out.println("Hello word!!!");
+        Position pos = new Position(5, 10);
+        System.out.println(pos);
     }
     
 }
