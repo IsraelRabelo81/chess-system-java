@@ -5,18 +5,12 @@
  */
 package application;
 
-import chess.ChessMatch;
-
-
-
 /**
  *
  * @author Israel P. Rabelo
  */
-public class Program {
-    public static void main(String[] args) {
-        ChessMatch chessMatch = new ChessMatch();
-        
-    }
+public class UI {
+    
+    
     
 }
